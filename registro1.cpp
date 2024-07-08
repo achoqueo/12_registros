@@ -19,5 +19,4 @@ int main(){
 		}cout<<"Ingrese el salario del empleado "<<i+1<<":";cin>>empleado[i].salario;
 	} 
 	return 0;
-	
 }
