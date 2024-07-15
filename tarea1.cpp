@@ -7,8 +7,8 @@ struct emp{
 };
 int main(){
 	int n;
-	emp empleado [n];
 	cout<<"Ingrese el numero de empleados: ";cin>>n;
+	emp empleado [n];
 	for(int i=0;i<n;i++){
 	    cout<<"Ingrese el nombre del empleado "<<i+1<<": ";cin.ignore();
 		getline(cin,empleado[i].nombre);
