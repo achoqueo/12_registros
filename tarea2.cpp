@@ -27,4 +27,12 @@ int main(){
 		sum=sum+persona[i].edad;
 	}pro=sum/n;
 	cout<<"El promedio de edad es "<<pro<<endl;
+	cout<<"Los datos de todas las personas ingresadas son los siguientes: "<<endl;
+	for(int i=0;i<n;i++){
+		cout<<"De la persona nro "<<i+1<<": "<<endl;
+		cout<<"Nombre: "<<persona[i].nombre<<endl;
+		cout<<"DNI: "<<persona[i].dni<<endl;
+		cout<<"Edad: "<<persona[i].edad<<endl;
+		
+	}
 }
